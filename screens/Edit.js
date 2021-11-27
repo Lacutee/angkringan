@@ -1,15 +1,11 @@
-import { StatusBar } from 'expo-status-bar';
+
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import BottomBar from './const/bottombar';
 
-
-export default function App() {
+export default function Edit() {
   return (
     <View style={styles.container}>
-      <BottomBar style= {{flex: 1}}>
-      </BottomBar>
-      <StatusBar style="auto" />
+      <Text>hhhhhhhh</Text>
     </View>
   );
 }
@@ -17,7 +13,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    backgroundColor: 'rgba(90, 90, 90, 1)',
     alignItems: 'center',
     justifyContent: 'center',
   },
