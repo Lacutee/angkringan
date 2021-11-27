@@ -1,5 +1,6 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
+import BottomBar from "./bottombar";
 import Header from './header';
 import HomeItem from './homeItem';
 
@@ -16,6 +17,9 @@ const Flex = () => {
 
       <View style={{ flex: 6, backgroundColor: "rgba(90, 90, 90, 1)" }}>
           <HomeItem/>
+      </View>
+      <View>
+          <BottomBar/>
       </View>
     </View>
   );

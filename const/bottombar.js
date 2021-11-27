@@ -1,6 +1,8 @@
 import React from "react";
 import {StyleSheet, View} from 'react-native';
-
+import HomeLogo from "./bottomLogo";
+import { EditLogo } from "./bottomLogo";
+import { SettingLogo } from "./bottomLogo";
 
 const BottomBar = () =>{
     return(
@@ -8,7 +10,6 @@ const BottomBar = () =>{
             <HomeLogo/>
             <EditLogo/>
             <SettingLogo/>
-  
       </View>
     );
   };
@@ -16,10 +17,12 @@ const BottomBar = () =>{
   
   const styles = StyleSheet.create({
     container: {
-      paddingTop: 20,
-      paddingBottom: 20,
+      paddingTop: 0,
+      paddingBottom: 0,
       elevation: 20,
+      shadowOffset: { width: 0, height: -10, },
       flexDirection: "row",
+      backgroundColor:'rgba(104, 104, 104, 1)'
   
     },
   });
