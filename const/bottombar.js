@@ -1,8 +1,5 @@
 import React from "react";
 import {StyleSheet, View} from 'react-native';
-import HomeLogo from "./bottomLogo";
-import { EditLogo } from "./bottomLogo";
-import { SettingLogo } from "./bottomLogo";
 import Flex from "../screens/home";
 import Edit from "../screens/Edit";
 import Hist from "../screens/hist";

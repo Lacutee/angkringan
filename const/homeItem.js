@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { useForm } from 'react-hook-form'
 import {View, StyleSheet,FlatList,Image, TouchableOpacity, Alert, Modal, Text, Pressable } from 'react-native';
 import MaterialIcons from 'react-native-vector-icons/MaterialIcons';
-import style from '../styles/globalStyle.css'
+// import style from '../styles/globalStyle.css'
 
 
 export default function HomeItem(){
@@ -253,8 +253,8 @@ centeredView: {
 },
 modalView: {
   display:"flex",
-  flexDirection: "col",
-
+  flexDirection: 'column',
+  overflow: 'hidden',
   margin: 20,
   backgroundColor: "white",
   borderRadius: 20,
