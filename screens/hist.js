@@ -1,11 +1,11 @@
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import HistItem from '../const/histItem';
 export default function Hist() {
   return (
     <View style={styles.container}>
-      <Text>Hist</Text>
+      <HistItem/>
     </View>
   );
 }

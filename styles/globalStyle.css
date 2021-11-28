@@ -1,0 +1,54 @@
+label{
+    background-color: #4A4A4A;
+    display: inline;
+    text-align: center;
+    padding-top: 10px;
+    width: 80px;
+    height: 30px;
+    /* padding-right: 2px;
+    padding-left: 2px;
+    padding-top: 1px;
+    padding-bottom: 1px; */
+    border-radius:10px;
+}
+View label{
+    margin: 8px;
+}
+
+input[type="radio"]{
+    -webkit-appearance:none;
+    width:13px;
+    height:13px;
+    border:1px solid darkgray;
+    border-radius:50%;
+    outline:none;
+    box-shadow:0 0 5px 0px gray inset;
+}
+
+input[type='radio']:hover {
+    box-shadow:0 0 5px 0px orange inset;
+}
+input[type='radio']:before {
+    content:'';
+    display:block;
+    width:100%;
+    height:100%;
+    /*margin: 20% auto;    */
+    border-radius:50%;    
+}
+input[type='radio']:checked:before {
+    background:green;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+input[type='submit']{
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+    background-image: linear-gradient(rgba(224, 0, 228, 1), rgba(255, 0, 184, 1));
+}
