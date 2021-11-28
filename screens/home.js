@@ -1,25 +1,21 @@
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import BottomBar from "./bottombar";
-import Header from './header';
-import HomeItem from './homeItem';
+import Header from '../const/header';
+import HomeItem from '../const/homeItem';
 
 const Flex = () => {
+
+  
   return (
     <View style={[styles.container, {
       // Try setting `flexDirection` to `"row"`.
       flexDirection: "column"
-
     }]}>
       <View style={[styles.header]} >
           <Header/>
       </View>
-
       <View style={{ flex: 6, backgroundColor: "rgba(90, 90, 90, 1)" }}>
           <HomeItem/>
-      </View>
-      <View>
-          <BottomBar/>
       </View>
     </View>
   );

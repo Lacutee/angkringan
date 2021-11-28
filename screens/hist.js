@@ -1,12 +1,11 @@
 
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import EditItem from '../const/editItem';
 
-export default function Edit() {
+export default function Hist() {
   return (
     <View style={styles.container}>
-      <EditItem/>
+      <Text>Hist</Text>
     </View>
   );
 }
